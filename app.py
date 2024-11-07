@@ -116,5 +116,5 @@ def main():
     elif page == "Forecast & Predictions":
         forecast_predictions()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
