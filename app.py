@@ -58,10 +58,10 @@ def homepage():
     """
 }
 
-    # Display user guide sections
-    for group, description in user_groups.items():
-        st.markdown(f"**{group}**")
-        st.markdown(description)
+    # Display user guide sections with numbering
+    for idx, (group, description) in enumerate(user_groups.items(), start=1):
+       st.write(f"**{idx}. {group}**")  # Adds a number before each group
+       st.markdown(description)
 
     # Getting Started Guide Section
     st.header("Getting Started Guide")
