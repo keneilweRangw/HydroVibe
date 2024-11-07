@@ -21,42 +21,42 @@ def homepage():
 
     # Dictionary of user groups with descriptions
     user_groups = {
-        "Recreational Users (Swimmers, Paddlers, Boaters)": """
-            **Purpose**: Understand if water quality conditions are safe for activities like swimming, kayaking, or boating.
-            **How to Use**: Check safety indicators and predictions to see if the water quality meets safe standards for recreational activities.
-            **Where to Go**: Go to the [Water Quality Trends](#) page and check the [current water quality dashboard](#).
-        """,
-        "Local Residents": """
-            **Purpose**: Track water quality trends to understand potential health risks and environmental changes in their community.
-            **How to Use**: Check historical and real-time data for changes in water quality that could affect health.
-            **Where to Go**: Go to the [Pollution Insights](#) page for pollutant tracking and trend analysis.
-        """,
-        "Environmental Conservation Groups": """
-            **Purpose**: Use water quality data to advocate for cleaner rivers, detect pollution patterns, and identify opportunities for intervention.
-            **How to Use**: Check pollution sources and use the trends for awareness campaigns.
-            **Where to Go**: Visit the [Pollution Insights](#) and [Water Quality Trends](#) pages for detailed analysis.
-        """,
-        "Agricultural and Irrigation Planners": """
-            **Purpose**: Ensure that river water quality meets standards for safe agricultural use, which can impact crop safety and irrigation strategies.
-            **How to Use**: Check pollutant levels and seasonal data for better irrigation planning.
-            **Where to Go**: Visit the [Pollution Insights](#) page for detailed pollutant data.
-        """,
-        "Scientists and Researchers": """
-            **Purpose**: Analyze long-term water quality data to conduct studies on pollution, ecosystem health, and climate impacts.
-            **How to Use**: Use long-term data to conduct research and build predictive models.
-            **Where to Go**: Check out the [Water Quality Trends](#) page for historical data and the [Forecast & Predictions](#) page for predictions.
-        """,
-        "Public Health Officials": """
-            **Purpose**: Monitor water quality as part of public health assessments, particularly regarding exposure risks from pollutants or pathogens.
-            **How to Use**: Monitor alerts and trends to issue public health advisories.
-            **Where to Go**: Go to the [Safety Indicators](#) page for health-related alerts.
-        """,
-        "Policy Makers and Urban Planners": """
-            **Purpose**: Use data to support water management policies, regulations, and development plans, aiming to reduce pollution and improve water access.
-            **How to Use**: Use historical and predictive data to develop and enforce water management policies.
-            **Where to Go**: Visit the [Forecast & Predictions](#) page for long-term forecasts and regulatory insights.
-        """
-    }
+    "Recreational Users (Swimmers, Paddlers, Boaters)": """
+        - **Purpose**: Understand if water quality conditions are safe for activities like swimming, kayaking, or boating.
+        - **How to Use**: Check safety indicators and predictions to see if the water quality meets safe standards for recreational activities.
+        - **Where to Go**: Go to the [Water Quality Trends](#) page and check the [current water quality dashboard](#).
+    """,
+    "Local Residents": """
+        - **Purpose**: Track water quality trends to understand potential health risks and environmental changes in their community.
+        - **How to Use**: Check historical and real-time data for changes in water quality that could affect health.
+        - **Where to Go**: Go to the [Pollution Insights](#) page for pollutant tracking and trend analysis.
+    """,
+    "Environmental Conservation Groups": """
+        - **Purpose**: Use water quality data to advocate for cleaner rivers, detect pollution patterns, and identify opportunities for intervention.
+        - **How to Use**: Check pollution sources and use the trends for awareness campaigns.
+        - **Where to Go**: Visit the [Pollution Insights](#) and [Water Quality Trends](#) pages for detailed analysis.
+    """,
+    "Agricultural and Irrigation Planners": """
+        - **Purpose**: Ensure that river water quality meets standards for safe agricultural use, which can impact crop safety and irrigation strategies.
+        - **How to Use**: Check pollutant levels and seasonal data for better irrigation planning.
+        - **Where to Go**: Visit the [Pollution Insights](#) page for detailed pollutant data.
+    """,
+    "Scientists and Researchers": """
+        - **Purpose**: Analyze long-term water quality data to conduct studies on pollution, ecosystem health, and climate impacts.
+        - **How to Use**: Use long-term data to conduct research and build predictive models.
+        - **Where to Go**: Check out the [Water Quality Trends](#) page for historical data and the [Forecast & Predictions](#) page for predictions.
+    """,
+    "Public Health Officials": """
+        - **Purpose**: Monitor water quality as part of public health assessments, particularly regarding exposure risks from pollutants or pathogens.
+        - **How to Use**: Monitor alerts and trends to issue public health advisories.
+        - **Where to Go**: Go to the [Safety Indicators](#) page for health-related alerts.
+    """,
+    "Policy Makers and Urban Planners": """
+        - **Purpose**: Use data to support water management policies, regulations, and development plans, aiming to reduce pollution and improve water access.
+        - **How to Use**: Use historical and predictive data to develop and enforce water management policies.
+        - **Where to Go**: Visit the [Forecast & Predictions](#) page for long-term forecasts and regulatory insights.
+    """
+}
 
     # Display user guide sections
     for group, description in user_groups.items():
