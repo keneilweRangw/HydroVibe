@@ -60,7 +60,7 @@ def homepage():
 
     # Display user guide sections
     for group, description in user_groups.items():
-        st.subheader(group)
+        st.markdown(f"**{group}**")
         st.markdown(description)
 
     # Getting Started Guide Section
