@@ -7,8 +7,6 @@ from surprise import Dataset, Reader
 import pickle
 from PIL import Image
 
-import streamlit as st
-
 # Set up the homepage
 def homepage():
     st.title('Welcome to HydroVibe')
